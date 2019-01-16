@@ -6,7 +6,7 @@ services:
     image: mysql:5.7
     environment: 
       MYSQL_ROOT_PASSWORD: verygoodpassword
-      MYSQL_DATABASE: app
+      MYSQL_DATABASE: app_development
     ports:
       - 3306:3306
     volumes:
